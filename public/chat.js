@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:8000')
+var socket = io.connect('https://young-shore-77603.herokuapp.com/')
 
 var message = document.getElementById('message'),
     handle = document.getElementById('handle'),
