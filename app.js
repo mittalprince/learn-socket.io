@@ -4,7 +4,7 @@ var socket = require('socket.io')
 var port = process.env.PORT || 8000
 var app = express()
 
-app.use(express.static('./public'))
+app.use(express.static('public'))
 
 var server = app.listen(port,()=>{
     console.log(`Server starts on port ${port}`)

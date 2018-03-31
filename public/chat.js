@@ -19,7 +19,7 @@ message.addEventListener('keypress',()=>{
 
 socket.on('chat',(data)=>{
     feedback.innerHTML = ''
-    output.innerHTML += '<p><strong>'+ data.handle +'</strong>'+ data.message +'</p>'
+    output.innerHTML += '<p><strong>'+ data.handle +' </strong> : '+ data.message +'</p>'
 })
 
 socket.on('typing',(data)=>{
